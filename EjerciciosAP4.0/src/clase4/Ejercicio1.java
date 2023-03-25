@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
-		//ubicacion clase    C:\Users\LENOVO\Desktop\FLAVIA\Ap- java 2023\EJERCICIOS-REPOSITORIO\EjerciciosAP-Java\EjerciciosAP4.0\src\clase4
 		
 		
 		int n1 = Integer.parseInt(args[0]);

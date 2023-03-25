@@ -9,7 +9,6 @@ import java.util.Iterator;
 public class Ejercicio2 {
 
 	public static void main(String[] args) {
-		//String archivo = "C:\\Users\\LENOVO\\Desktop\\FLAVIA\\Ap- java 2023\\EJERCICIOS-REPOSITORIO\\num.txt";
 		
 			String archivo = args[0];
 			String operacion = args[1];
@@ -41,4 +40,6 @@ public class Ejercicio2 {
 			
 		
 
-}}
+   }
+	
+}

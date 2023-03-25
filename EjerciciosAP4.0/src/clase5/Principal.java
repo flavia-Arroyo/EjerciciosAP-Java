@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class principal {
+public class Principal {
 
 	public static void main(String[] args) {
 		//ARCHIVO DONDE TENGO LOS DATOS
@@ -34,7 +34,15 @@ public class principal {
 			Persona persona1 = new Persona("flavia", "arroyo", LocalDateTime.parse("1982-03-23T12:23:00"),carrito);
 			
 			Carrito miCarrito = persona1.getCarrito();
-			float resultado = miCarrito.costoFinal();
+			
+			Descuento descFijo = new DescuentoFijo(30);
+			
+			Descuento descPorcentaje = new DescuentoPorcentaje(0.10f);
+			
+			Descuento descTope = new DescuentoPorcentajeConTope(0.30f);
+			descTope.setValor(0.10f);
+			
+			float resultado = miCarrito.costoFinal(descTope);
 			
 			System.out.println("el costo total del carrito es: " + resultado);
 			

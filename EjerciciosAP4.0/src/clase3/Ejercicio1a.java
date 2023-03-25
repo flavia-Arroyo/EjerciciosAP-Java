@@ -5,16 +5,12 @@ import java.util.Arrays;
 public class Ejercicio1a {
 
 	public static void main(String[] args) {
-		String hola = "hola que tal?".toUpperCase().replace(
-
-
-				"hola","chau");
-		System.out.println(hola);
 		
 		
-		//int cantidad  = cantidadLetras("establecer", 'e');
 		
-		//System.out.println("la cantidad de letras en la palabra es: "+ cantidad);
+		int cantidad  = cantidadLetras("establecer", 'e');
+		
+		System.out.println("la cantidad de letras en la palabra es: "+ cantidad);
 		
 
 		

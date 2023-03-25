@@ -50,8 +50,10 @@ public class Carrito {
 	}
 	// otro 
 	
-	public float costoFinal() {
-		return this.producto1.costoFinal() + this.producto2.costoFinal() + this.producto3.costoFinal();
+	public float costoFinal(Descuento descuento) {
+		float total = descuento.valorFinal(this.producto1.costoFinal() + this.producto2.costoFinal() + this.producto3.costoFinal());
+		
+		return total;
 	}
 
 	
