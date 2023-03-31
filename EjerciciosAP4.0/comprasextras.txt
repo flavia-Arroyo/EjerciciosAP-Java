@@ -1,0 +1,7 @@
+precioUnitario  producto codigo
+7000 jabón en polvo 123f
+6000 esponjas 124f
+40000 chocolates 125f
+43770 mayonesa 156f
+23440 mermelada 3445f
+45660 champu 234f

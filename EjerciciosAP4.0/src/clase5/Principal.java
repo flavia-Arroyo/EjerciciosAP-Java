@@ -17,7 +17,7 @@ public class Principal {
 		try {
 			//guardar en una lista 
 			List<String> lista = Files.readAllLines(Paths.get(compra));
-			
+			System.out.println(lista);
 			//crear los productos acceder a las lineas convierto en un arreglo 
 			String[] datosproducto1 = lista.get(1).split(" ");
 			String[] datosproducto2 = lista.get(2).split(" ");
